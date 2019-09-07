@@ -9,8 +9,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.aditya.dao.UserDao;
-import com.aditya.pojo.User;
+import servlet.com.aditya.dao.UserDao;
+import servlet.com.aditya.pojo.User;
 
 @WebServlet("/AddUser")
 public class AddUser extends HttpServlet {

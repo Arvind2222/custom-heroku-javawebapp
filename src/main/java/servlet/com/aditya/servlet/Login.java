@@ -13,7 +13,7 @@ import javax.servlet.http.HttpSession;
 
 import org.apache.jasper.tagplugins.jstl.core.Out;
 
-import com.aditya.dao.LoginDao;
+import servlet.com.aditya.dao.LoginDao;
 
 @WebServlet("/Login")
 public class Login extends HttpServlet {

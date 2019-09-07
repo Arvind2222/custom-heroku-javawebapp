@@ -10,9 +10,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import com.aditya.dao.LoginDao;
-import com.aditya.dao.UserDao;
-import com.aditya.pojo.User;
+import servlet.com.aditya.dao.LoginDao;
+import servlet.com.aditya.dao.UserDao;
+import servlet.com.aditya.pojo.User;
 
 @WebServlet("/MyServlet")
 public class MyServlet extends HttpServlet {
