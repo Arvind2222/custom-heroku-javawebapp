@@ -1,4 +1,4 @@
-package com.aditya.config;
+package servlet.com.aditya.config;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

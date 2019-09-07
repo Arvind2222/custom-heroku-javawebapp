@@ -1,4 +1,4 @@
-package com.aditya.pojo;
+package servlet.com.aditya.pojo;
 
 public class User {
 	private String Name;

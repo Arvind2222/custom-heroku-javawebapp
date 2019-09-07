@@ -1,4 +1,4 @@
-package com.aditya.servlet;
+package servlet.com.aditya.servlet;
 
 import java.io.IOException;
 import javax.servlet.ServletException;
