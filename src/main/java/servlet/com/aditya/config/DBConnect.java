@@ -11,7 +11,7 @@ public class DBConnect {
 		
 			Class.forName("org.postgresql.Driver");
 			
-			con=DriverManager.getConnection("jdbc:postgres://kagezioqxmdmrd:15bcf3cb86c38c1d9ea086abe50b7d5dfbec2d3f60379e4ea75468802549fe39@ec2-54-235-114-242.compute-1.amazonaws.com:5432/dc1g3kn8qse9je","kagezioqxmdmrd","15bcf3cb86c38c1d9ea086abe50b7d5dfbec2d3f60379e4ea75468802549fe39");
+			con=DriverManager.getConnection("jdbc:postgres://ec2-54-235-114-242.compute-1.amazonaws.com:5432/dc1g3kn8qse9je","kagezioqxmdmrd","15bcf3cb86c38c1d9ea086abe50b7d5dfbec2d3f60379e4ea75468802549fe39");
 		} catch (Exception e) {
 			e.printStackTrace();
 
