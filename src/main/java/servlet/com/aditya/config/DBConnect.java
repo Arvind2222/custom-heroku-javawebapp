@@ -14,7 +14,7 @@ public static Connection getConnect() {
     Connection conn = null;
     String username = "kagezioqxmdmrd";
     String password = "15bcf3cb86c38c1d9ea086abe50b7d5dfbec2d3f60379e4ea75468802549fe39";
-    String dbUrl = "jdbc:postgres://ec2-54-235-114-242.compute-1.amazonaws.com:5432/dc1g3kn8qse9je";
+    String dbUrl = "jdbc:postgresql://ec2-54-235-114-242.compute-1.amazonaws.com:5432/dc1g3kn8qse9je";
 
     try {
      conn = DriverManager.getConnection(dbUrl, username, password);
