@@ -16,7 +16,7 @@ public class UserDao {
 	public boolean addUser(User u) {
 
 		//System.out.print("DVHJVFHJVD" + u);
-		String sql = "insert into user values(?,?,?,?)";
+		String sql = "insert into USER_POJO values(?,?,?,?)";
 		try {
 			PreparedStatement ps = connection.prepareStatement(sql);
 
