@@ -4,18 +4,18 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 
-import com.aditya.config.DBConnect;
+import servlet.com.aditya.config.DBConnect;
 
 public class LoginDao {
 
 	String sql = "SELECT * FROM USER  where UserName=? and Password=?";
-	String url = "jdbc:mysql://localhost:3306/user";
-	String username = "root";
-	String password = "root";
+	String url = "postgres://kagezioqxmdmrd:15bcf3cb86c38c1d9ea086abe50b7d5dfbec2d3f60379e4ea75468802549fe39@ec2-54-235-114-242.compute-1.amazonaws.com:5432/dc1g3kn8qse9je";
+	String username = "kagezioqxmdmrd";
+	String password = "15bcf3cb86c38c1d9ea086abe50b7d5dfbec2d3f60379e4ea75468802549fe39";
 
 	public boolean check(String uname, String pass) {
 		try {
-			Class.forName("com.mysql.jdbc.Driver");
+			Class.forName("org.postgresql.Driver");
 			Connection connection = DBConnect.getConnect();
 			PreparedStatement statement = connection.prepareStatement(sql);
 			statement.setString(1, uname);

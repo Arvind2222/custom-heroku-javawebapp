@@ -6,8 +6,8 @@ import java.sql.ResultSet;
 
 import javax.naming.spi.DirStateFactory.Result;
 
-import com.aditya.config.DBConnect;
-import com.aditya.pojo.User;
+import servlet.com.aditya.config.DBConnect;
+import servlet.com.aditya.pojo.User;
 
 public class UserDao {
 
